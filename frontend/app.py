@@ -129,7 +129,7 @@ def generate_text(
 # ----------------------------
 # UI
 # ----------------------------
-st.title("🤖 GPT-2 Reproduced from scratch")
+st.title("🤖 GPT-2 reproduced from scratch")
 # st.caption("A mini GPT built and trained on a local laptop")
 
 with st.sidebar:
