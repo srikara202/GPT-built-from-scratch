@@ -132,6 +132,29 @@ def generate_text(
 st.title("🤖 GPT-2 reproduced from scratch")
 # st.caption("A mini GPT built and trained on a local laptop")
 
+# Custom CSS for the footer
+footer_style = """
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white; /* Adjust background color as needed */
+    color: black; /* Adjust text color as needed */
+    text-align: center;
+    padding: 10px; /* Add some padding */
+    border-top: 1px solid #e0e0e0; /* Optional: add a top border */
+}
+</style>
+<div class="footer">
+    <p>Link to GitHub repo: [Here](https://github.com/srikara202/GPT-built-from-scratch)</p>
+</div>
+"""
+
+# Inject the custom CSS and HTML
+st.markdown(footer_style, unsafe_allow_html=True)
+
 with st.sidebar:
     st.header("Generation Settings")
     temperature = st.slider("Temperature", 0.05, 2.0, 0.8, 0.05)
