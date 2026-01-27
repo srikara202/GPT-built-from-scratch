@@ -130,7 +130,8 @@ def generate_text(
 # UI
 # ----------------------------
 st.title("🤖 GPT-2 reproduced from scratch")
-st.caption("GPT built on a local laptop with just pytorch")
+st.caption("Foundationsl GPT-2 built on a local laptop with just pytorch.")
+st.caption("Disclaimer: Doesn't work as a conversational bot")
 
 with st.sidebar:
     st.header("Generation Settings")
