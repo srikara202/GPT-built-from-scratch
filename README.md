@@ -4,6 +4,8 @@ A from-scratch PyTorch implementation of the GPT-2 architecture, including a toy
 
 Streamlit demo: https://gpt-built-from-scratch-gg43jqmryyynvfbn9fz7ve.streamlit.app/
 
+The architecture is a re-implementation of the architectures from the papers "*Improving language understanding by generative pre-training*" and "*Language models are unsupervised multitask learners*", which in turn were based on the paper "*Attention is All You Need*".
+
 ## What this project does
 
 In this project, I have:
@@ -197,6 +199,8 @@ LICENSE
 ## Acknowledgments
 
 * Radford, Alec, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. "Language models are unsupervised multitask learners." OpenAI blog 1, no. 8 (2019): 9.
+* Radford, Alec, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. "Improving language understanding by generative pre-training." (2018): 3.
+* Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. "Attention is all you need." Advances in neural information processing systems 30 (2017).
 * "Build a Large Language Model (From Scratch)" by Sebastian Raschka
 * HuggingFace Transformers (distilgpt2) (https://huggingface.co/distilbert/distilgpt2)
 * tiktoken (https://github.com/openai/tiktoken)
