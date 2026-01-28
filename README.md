@@ -2,6 +2,8 @@
 
 A from-scratch PyTorch implementation of the GPT-2 architecture, including a toy training loop, HuggingFace distilgpt2 (82M) pretrained weight loading, autoregressive text generation, and a Streamlit UI demo.
 
+Streamlit demo: https://gpt-built-from-scratch-gg43jqmryyynvfbn9fz7ve.streamlit.app/
+
 ## What this project does
 
 In this project, I have:
