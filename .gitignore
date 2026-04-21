@@ -2,6 +2,8 @@
 # gpt_weights.pt
 # model.pkl
 
+INTERVIEW_PREP_GPT2_FROM_SCRATCH.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
